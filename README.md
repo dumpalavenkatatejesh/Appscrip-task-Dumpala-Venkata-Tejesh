@@ -7,7 +7,8 @@ This project fulfills the **Appscrip Frontend Developer Task** requirements incl
 
 ## 🚀 Live Demo
 
-🔗 **Deployed on Vercel:** [https://appscrip-task-dumpala-venkata-tejes.vercel.app/]
+🔗 **Deployed on Vercel:** https://appscrip-task-dumpala-venkata-tejes.vercel.app/
+
 🔗 **GitHub Repository:** [https://github.com/dumpalavenkatatejesh/Appscrip-task-Dumpala-Venkata-Tejesh](https://github.com/dumpalavenkatatejesh/Appscrip-task-Dumpala-Venkata-Tejesh)
 
 ---
