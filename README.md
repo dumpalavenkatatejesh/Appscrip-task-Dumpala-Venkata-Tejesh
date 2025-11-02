@@ -12,33 +12,19 @@ This project fulfills the **Appscrip Frontend Developer Task** requirements incl
 
 ---
 
-## 🧩 Overview
 
-This project demonstrates:
-- **Server-Side Rendering (SSR)** using **Next.js**
-- Fully **responsive UI** (Desktop / Tablet / Mobile)
-- **SEO best practices**
-  - Page title & description
-  - H1 & H2 tags
-  - JSON-LD Schema
-  - Optimized image names + alt text
-- Clean, modular code structure with **minimal external JS libraries**
-- **Mock data** integration using [FakeStore API](https://fakestoreapi.com/)
-- Hosted on **Netlify** and publicly shareable
-- Repository naming convention followed:  
-  `Appscrip-task-Dumpala-Venkata-Tejesh`
-
----
 
 git clone https://github.com/dumpalavenkatatejesh/Appscrip-task-Dumpala-Venkata-Tejesh.git
+
 cd Appscrip-task-Dumpala-Venkata-Tejesh
-2️⃣ Install Dependencies
-bash
-Copy code
+
+** Install Dependencies**
+
 npm install
-3️⃣ Start Development Server
-bash
-Copy code
+
+
+**Start Development Server**
+
 npm run dev
-## 🗂️ Project Structure
+
 
