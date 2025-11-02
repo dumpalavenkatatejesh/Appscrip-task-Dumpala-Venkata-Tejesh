@@ -1,6 +1,6 @@
 # 🛍️ Appscrip Task — Dumpala Venkata Tejesh
 
-A fully responsive **e-commerce landing page** built using **React.js (Next.js)** framework.  
+A fully responsive **e-commerce landing page** built using **React.js** framework.  
 This project fulfills the **Appscrip Frontend Developer Task** requirements including SSR, SEO optimization, responsiveness, and hosting.
 
 ---
