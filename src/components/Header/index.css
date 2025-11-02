@@ -1,0 +1,141 @@
+/* ---------- Base Header ---------- */
+.header {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 16px 40px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* ---------- Left Logo ---------- */
+.logo img {
+  height: 36px;
+  width: 36px;
+  object-fit: contain;
+}
+
+/* ---------- Center Section ---------- */
+.center-section {
+  margin-left:12%;
+  display: flex;
+  flex-direction: column; /* 🟢 Logo above, menu below */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.brand-logo {
+  height: 40px;
+  width: auto;
+  margin-bottom: 25px;
+}
+
+/* ---------- Nav Menu ---------- */
+.nav-menu {
+  display: flex;
+  gap: 36px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.nav-menu a:hover {
+  color: #444;
+}
+
+/* ---------- Right Icons ---------- */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 18px;
+  cursor: pointer;
+  color: #000;
+}
+
+.icon:hover {
+  color: #444;
+}
+
+.lang {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.dropdown {
+  font-size: 10px;
+}
+
+/* ---------- Mobile Menu Toggle ---------- */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 992px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 20px 0;
+    gap: 20px;
+    z-index: 99;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .lang {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 12px 20px;
+  }
+
+  .brand-logo {
+    height: 30px;
+  }
+
+  .icon {
+    font-size: 16px;
+  }
+}
