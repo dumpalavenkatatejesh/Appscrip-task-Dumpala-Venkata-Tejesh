@@ -7,7 +7,7 @@ This project fulfills the **Appscrip Frontend Developer Task** requirements incl
 
 ## 🚀 Live Demo
 
-🔗 **Deployed on Netlify:** [https://your-netlify-link.netlify.app](#)  
+🔗 **Deployed on Netlify:** [https://appscrip-task-dumpala-venkata-tejes.vercel.app/](#)  
 🔗 **GitHub Repository:** [https://github.com/dumpalavenkatatejesh/Appscrip-task-Dumpala-Venkata-Tejesh](https://github.com/dumpalavenkatatejesh/Appscrip-task-Dumpala-Venkata-Tejesh)
 
 ---
